@@ -1,0 +1,2 @@
+For this projected, I have decided to use a convolutional neural network along with a variational autoencoder.
+The cnn consists of two (GroupNorm --> ReLu --> 3x3x3 non-strided Convolution) units, with a residual connection from the input `inp` to the output. Used internally in the model
